@@ -563,6 +563,7 @@ class AntiGravitic(Classic):
     
 # les pions sont poussés de l'exterieur vers l'intérieur et en cascade
 # on ne peut pas ejecter le dernier pion posé par l'adversaire
+#   avec un vecteur opposé à celui que l'adversaire a joué lors du dernier mouvement
     def ajoute(self,p,direction):
         i=self.getPieces()
 #
